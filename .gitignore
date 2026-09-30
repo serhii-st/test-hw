@@ -1,0 +1,16 @@
+# Secrets (never commit)
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+
+# Editors and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Tooling
+__pycache__/
